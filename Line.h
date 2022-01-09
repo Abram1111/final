@@ -8,7 +8,6 @@ private:
 public:
     Line (string name,string color, int fristx , int fristy , int x2 , int y2);
     void Setlength(int x_f, int y_f, int x_s ,int y_s) ;
-    double getlength() ;
-    double getperimeter2();
+    double getperimeter();
 };
 #endif // LINE_H

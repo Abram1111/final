@@ -1,6 +1,5 @@
 #ifndef DIALOG_H
 #define DIALOG_H
-//#include "setter.h"
 #include <QDialog>
 #include<QtCore>
 #include<QtGui>
@@ -8,9 +7,7 @@
 #include<QMessageBox>
 #include<QGraphicsEllipseItem>
 #include<QVector>
-#include<QList>
 #include<vector>
-#include<list>
 #include"Shape.h"
 #include "Circle.h"
 #include "Rectangle.h"
@@ -30,8 +27,8 @@ public:
     int clc ;
     vector<Shape*> shapes;
      vector <Shape*> redo ;
-      vector<QGraphicsItem*> list;
-       vector<QGraphicsItem*> rlist;
+      vector<QGraphicsItem*> item_list;
+       vector<QGraphicsItem*> redo_item_list;
 
 
 private slots:
@@ -40,7 +37,7 @@ private slots:
 
 
 
-    void on_pushButton_clicked();
+    void on_btn_draw_clicked();
 
     void on_btn_circle_clicked();
 

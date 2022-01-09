@@ -20,7 +20,7 @@ public:
     double getCenter_x();
     void setCenter_y(double y) ;
     double getCenter_y() ;
-    virtual double getperimeter2()=0;
+    virtual double getperimeter()=0;
     //void delete(Shape);
 
 

@@ -10,10 +10,10 @@ public:
       Circle(string name , string color , double radius , double perimeter);
       Circle();
     void Setradius(double radius) ;
-    double getperimeter2();
+    double getperimeter();
     double getradius() ;
     void Setperimeter(double radius) ;
-   // double getperimeter() ;
+
 
 
 

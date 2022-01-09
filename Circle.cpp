@@ -17,11 +17,7 @@ Circle::Circle(){}
     void  Circle:: Setperimeter(double radius) {
          perimeter = 2 * 3.14 * radius;
     }
-
-   // double Circle:: getperimeter() {
-     //   return perimeter ;
-    //}
-    double Circle::getperimeter2(){
+    double Circle::getperimeter(){
       return perimeter ;
     }
 

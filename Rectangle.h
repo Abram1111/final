@@ -16,7 +16,6 @@ public:
 
     double getwidth() ;
     void Setperimeter(double width, double length) ;
-  //  double getperimeter() ;
-    double getperimeter2();
+    double getperimeter();
 };
 #endif // RECTANGLE_H
